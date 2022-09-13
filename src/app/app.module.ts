@@ -6,6 +6,7 @@ import { AuthModule } from './auth/auth.module';
 
 import { AppComponent } from './app.component';
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
+import { IncrementadorComponent } from './components/incrementador/incrementador.component';
 
 
 @NgModule({
@@ -13,7 +14,7 @@ import { NopagefoundComponent } from './nopagefound/nopagefound.component';
     AppComponent,
     // LoginComponent,
     // RegisterComponent,
-    NopagefoundComponent,
+    NopagefoundComponent
     
   ],
   imports: [
