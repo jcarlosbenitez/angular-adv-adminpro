@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { SettingsService } from '../services/settings.service';
-
-declare function customInitFuctions(): void;;
+// @ts-ignore
+declare function customInitFuctions();
 
 @Component({
   selector: 'app-pages',
